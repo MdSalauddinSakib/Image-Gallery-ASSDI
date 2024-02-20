@@ -63,12 +63,92 @@ li a:hover:not(.active),.dropdown:hover .dropbtn{
     display: block;
 }
 
-
-
-
-
-
-
 h1{
     color: brown;
+}
+
+.aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+div.gallery{
+    border: 1px solid #ccc;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+div.gallery:hover{
+    border: 1px solid #777;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.gallery img:hover{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.desc{
+    padding: 15px;
+}
+
+div.desc p{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.fontawesome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+span .fa-comments{
+    color: #04aa6d;
+}
+
+span .fa-star{
+    color: #777;
+}
+span .fa-star:hover{
+    color: #04aa6d;
+    cursor: pointer;
+}
+
+div.desc button{
+    width: 100%;
+    padding: 8px 0;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.desc button:hover{
+    width: 100%;
+    padding: 8px 0;
+    background-color: #149868;
+    border: 1px solid green;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    font-weight: bold;
+    cursor: pointer;
 }
