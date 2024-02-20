@@ -186,13 +186,13 @@ footer{
 /* ---Handle--- */
 
 ::-webkit-scrollbar-thumb{
-    background-color: #04aa6d;
+    background-color: green;
     border-radius: 15px;
 }
 
 /* ---Handle on hover--- */
 
 ::-webkit-scrollbar-thumb:hover{
-    background-color: rgba(4, 170, 109, 0.767);
+    background-color: rgba(0, 128, 0, 0.753);
     border-radius: 15px;
 }
