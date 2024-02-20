@@ -31,7 +31,7 @@ li a.active{
     color: #fff;
 }
 
-li a:hover:not(.active){
+li a:hover:not(.active),.dropdown:hover .dropbtn{
     background-color: #555;
     color: #fff;
 }
@@ -46,8 +46,22 @@ li a:hover:not(.active){
     text-align: center;
 }
 
+.dropdown{
+    position: relative;
+}
 
+.dropdown-content{
+    position: absolute;
+    background-color: #f9f9f9;
+    display: none;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
 
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 
 
 
