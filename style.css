@@ -1,3 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    height: auto;
+}
+
+nav{
+    width: 25%;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+    overflow: auto;
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+li a.active{
+    background-color: #04aa6d;
+    color: #fff;
+}
+
+li a:hover:not(.active){
+    background-color: #555;
+    color: #fff;
+}
+
+.wrapper{
+    margin-left: 25%;
+    padding: 20px 30px;
+}
+
+.title{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 h1{
     color: brown;
 }
